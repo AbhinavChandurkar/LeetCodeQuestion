@@ -1,7 +1,12 @@
-public class p1773 {
-    public int countMatches(List<List<String>> items, String ruleKey, String ruleValue) {
-        for(int i =0; i<items.length;i++){
+import java.util.*;
 
-        }
+public class p1773 {
+    public static void main(String[] args) {
+        List<List<Integer>> lists = new ArrayList<>(List.of(
+            new ArrayList<>(List.of(1, 2, 3)),
+            new ArrayList<>(List.of(4, 5, 6)),
+            new ArrayList<>(List.of(6, 7, 8))
+    ));
+
     }
 }
