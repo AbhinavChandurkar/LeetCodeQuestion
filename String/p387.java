@@ -10,7 +10,7 @@ public class p387 {
 
     static public int solve(String s){
         int n = s.length();
-        int ans;
+        // int ans;
         HashMap<Character,Integer> map = new HashMap<Character,Integer>();
         for (int i = 0; i < n; i++) {
             if(map.containsKey(s.charAt(i))){
